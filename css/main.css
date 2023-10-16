@@ -1,0 +1,55 @@
+body{
+    width:100%;
+    max-width: 1200px;
+    margin: auto;
+    font:normal normal normal 12px/1.5 arial
+}
+.structural{
+    padding: 10px;
+    margin:10px;
+}
+h1{
+    color:hsl(155,80,40);
+    font-size: 13px;
+}
+h2{
+    color:hsl(225,100,60);
+    font-size: 13px;
+}
+main{
+    height: 70vh;
+}
+img{
+    border:90%, 80% solid black
+}
+#sundog, #doggroup{
+    background-color:#ff7777 ;
+    width:45%;
+    height:60%;
+    margin:auto;
+    padding:10px;
+}
+#sundog{
+    float: right;
+}
+#doggroup{
+    float:left;
+    
+}
+section{
+    clear: both;
+}
+a{
+    color:crimson
+}
+a:hover{
+    color:rgb(12,233,22)
+}
+
+ul{
+    list-style: square;
+    line-height: 25px;
+}
+header,footer{
+    background-color: aqua;
+}
